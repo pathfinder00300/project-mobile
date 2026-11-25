@@ -3,7 +3,7 @@
 기획 및 디자인부터 마크업(프로그래밍)까지 100% 기여하였습니다. <br>
 
 ## 🔗 PORTFOLIO URL
-* 기업형 웹 프로젝트(사조)
+* 기업형 모바일 프로젝트(사조)
     + https://pathfinder0623.mycafe24.com/mobile
 
 
