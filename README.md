@@ -1,10 +1,10 @@
 # WEB PORTFOLIO
-기업형 웹(PC) 포트폴리오입니다.<br>
+기업형 모바일(MOBILE) 포트폴리오입니다.<br>
 기획 및 디자인부터 마크업(프로그래밍)까지 100% 기여하였습니다. <br>
 
 ## 🔗 PORTFOLIO URL
 * 기업형 웹 프로젝트(사조)
-    + https://pathfinder0623.mycafe24.com
+    + https://pathfinder0623.mycafe24.com/mobile
 
 
 ### ⚒️ SKILLS
