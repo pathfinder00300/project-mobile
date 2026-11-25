@@ -1,0 +1,34 @@
+/* sub1_1 콘텐츠 */
+
+/* 기업소개 영역 */
+.company_intro{width: 100%; padding: 0 10px; box-sizing: border-box; margin-bottom: 75px;}
+.company_intro .intro_title{font-size: var(--font-20-size); font-weight: 700; color: var(--color-font1); margin-bottom: 17px;}
+.company_intro img{width: 100%; border-radius: 10px 10px 70px 10px; margin-bottom: 38px;}
+.company_intro div .description{margin-bottom: 40px; text-align: justify;}
+.company_intro div p strong{display: block; font-size: var(--font-18-size); margin-bottom: 10px; text-align: justify;}
+.company_intro div p{text-align: justify;}
+
+/* 인사말 영역 */
+.greeting{width: 100%;}
+.greeting .greeting_top{width: 100%; margin-bottom: 63px; padding: 0 10px; box-sizing: border-box;}
+.greeting .greeting_top .intro_title{font-size: var(--font-20-size); font-weight: 700; color: var(--color-font1); margin-bottom: 17px;}
+.greeting .greeting_top img{width: 100%; border-radius: 10px 10px 70px 10px; margin-bottom: 38px;}
+.greeting .greeting_top p{margin-bottom: 10px; text-align: justify;}
+.greeting .greeting_top strong{display: block; font-size: var(--font-18-size); margin-bottom: 10px;}
+
+
+.greeting .greeting_bottom{width: 100%; padding: 30px 10px 70px; box-sizing: border-box; background: var(--color-sub2);}
+.greeting .greeting_bottom .intro_title{font-size: var(--font-20-size); font-weight: 700; color: var(--color-font1); margin-bottom: 17px;}
+.greeting .greeting_bottom img{width: 100%; border-radius: 10px 10px 70px 10px; margin-bottom: 38px;}
+.greeting .greeting_bottom p{margin-bottom: 12px; text-align: justify;}
+.greeting .greeting_bottom .description{margin-bottom: 40px;  text-align: justify;}
+.greeting .greeting_bottom p strong{display: block; font-size: var(--font-18-size); margin-bottom: 10px; text-align: justify;}
+
+/* 탭 */
+#content .menu_tab{width: 100%; padding: 0 10px; margin-bottom: 48px; box-sizing: border-box;}
+#content .menu_tab ul{width: 100%; margin: 0 auto; display: flex;}
+#content .menu_tab ul li{width: 50%; text-align: center; position: relative;}
+#content .menu_tab ul li a{font-size: var(--font-16-size); font-weight: 600; color: #999; padding: 15px;}
+#content .menu_tab ul li a::after{content: ''; position: absolute; left: 50%; bottom: 0; width: 0; height: 3px; transform: translateX(-50%); background: var(--color-main);}
+#content .menu_tab ul li .active{color: var(--color-main); font-weight: 700;}
+#content .menu_tab ul li a.active::after{width: 100%;}

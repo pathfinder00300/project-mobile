@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,sans-serif}
+#splash{position:fixed;inset:0;height:100vh;height:100dvh;z-index:9999;background:#fff;overflow:hidden;opacity:1;visibility:visible;transition:opacity .65s ease,visibility .65s ease}
+#splash.hide{opacity:0;visibility:hidden;pointer-events:none}
+.splash-logo{position:absolute;z-index:4;left:50%;top:39%;width:min(47vw,210px);height:auto;transform:translate(-50%,-50%);animation:logo-appear .9s ease-out both}
+@keyframes logo-appear{from{opacity:0;transform:translate(-50%,-44%) scale(.94)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+/* SVG는 각각 두 개의 동일한 물결 주기를 포함합니다.
+   200% 너비에서 -50% 이동하면 정확히 한 주기이므로 이음새가 없습니다. */
+.wave-area{position:absolute;left:0;right:0;bottom:0;height:38%;overflow:hidden;pointer-events:none;background:transparent}
+.wave{position:absolute;left:0;bottom:0;width:200%;height:100%;display:block;will-change:transform}
+.wave-back{z-index:1;animation:wave-left 9s linear infinite}
+.wave-middle{z-index:2;animation:wave-right 7.5s linear infinite}
+.wave-front{z-index:3;animation:wave-left 6.5s linear infinite}
+@keyframes wave-left{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes wave-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}

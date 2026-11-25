@@ -1,0 +1,26 @@
+/* 홍보영상 영역 */
+.sub_nav ul li{width: 33.33%;}
+#content{width: 100%;}
+
+/* section01 */
+.content_01{width: 100%; padding: 0 10px; box-sizing: border-box;}
+.content_01 .media_title{padding: 25px 20px; background: var(--color-sub2); border-left: 3px solid var(--color-main); margin-bottom: 20px;}
+.content_01 .media_title h3{font-size: var(--font-25-size); font-weight: 700; color: var(--color-font1); margin-bottom: 12px;}
+.content_01 .media_title span{display: block; font-family: "Montserrat", sans-serif; font-size: var(--font-12-size); color: var(--color-main); font-weight: 700;}
+
+.content_01 .youtube_main{width: 100%; box-sizing: border-box; margin-bottom: 25px;}
+.content_01 .youtube_main iframe{width: 100%; min-height: 250px; border: 0; border-radius: 15px;}
+.content_01 .youtube_wrap{width: 100%;}
+.content_01 .youtube_wrap .youtube_list{display: flex; justify-content: center; align-items: center;}
+
+/* section02 */
+/* 유튜브 리스트 */
+.content_02{width: 100%; padding: 0 0 70px 0;}
+.content_02 .youtube_wrap{width: 100%;}
+.content_02 .youtube_wrap .wrap_title{width: 100%; padding: 0 10px; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;}
+.content_02 .youtube_wrap .wrap_title h3{font-size: var(--font-16-size); font-weight: 700; color: var(--color-main);}
+.content_02 .youtube_wrap .wrap_title p{font-size: var(--font-12-size); font-weight: 500; color: var(--color-font3);}
+
+.content_02 .youtube_wrap .youtube_list{width: 100%; display: flex;}
+.content_02 .youtube_wrap .youtube_list img{width: 100%; margin-bottom: 5px; border-radius: 15px;}
+.content_02 .youtube_wrap .youtube_list li p{font-size: var(--font-14-size); color: var(--color-font1); overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}

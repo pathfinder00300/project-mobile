@@ -1,0 +1,43 @@
+/* 로하이 영역 */
+.sub_nav ul li{width: 33.33%;}
+#content{width: 100%;}
+
+/* section01 */
+.section01{width: 100%; background: var(--color-sub2); padding: 30px 10px; box-sizing: border-box;}
+.section01 h3{font-size: var(--font-25-size); color: var(--color-main); font-weight: 700; margin-bottom: 20px;}
+.section01 p{line-height: 1.6; margin-bottom: 20px; text-align: justify;}
+.section01 img{width: 100%; object-fit: cover; object-position: center; border-radius: 5px 5px 40px 5px;}
+
+/* section02 */
+.section02{width: 100%; padding: 35px 10px; box-sizing: border-box; margin-bottom: 60px;}
+.section02 h3{text-align: center; font-size: var(--font-25-size); font-weight: 700; color: var(--color-main); margin-bottom: 45px;}
+.section02 .serch_box{width: 100%; display: flex; justify-content: center; gap: 2%; margin-bottom: 50px;}
+.section02 .serch_box input{padding: 12px 10px; width: 40%; background: var(--color-navline); border: 1px solid var(--color-stroke2); border-radius: 5px;}
+.section02 .serch_box #btn{padding: 12px 15px; width: 20%; background: var(--color-main); border-radius: 5px; font-size: var(--font-16-size); color: var(--color-white); box-sizing: border-box;}
+.section02 .serch_box .btn_all{padding: 12px 10px; width: 25%; background: var(--color-white); border-radius: 5px; border: 1px solid var(--color-main); font-size: var(--font-16-size); color: var(--color-main); box-sizing: border-box;}
+
+.product_list ul{display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 10px; row-gap: 25px;}
+.product_list ul li{width: 100%;}
+.product_list ul li img{width: 100%; margin-bottom: 15px;}
+.product_list ul li>span{display: block; font-size: var(--font-16-size); font-weight: 600; color: var(--color-font1); text-align: center; margin-bottom: 14px;}
+.product_list ul li a{display: block; text-align: center; margin: 0 auto; padding: 7px 8px 7px 23px; width: 100px; background: var(--color-main); border-radius: 30px; font-size: var(--font-14-size); color: var(--color-white); display: flex; justify-content: center; align-items: center; gap: 5px;}
+.product_list ul li a .material-symbols-outlined{color: var(--color-white);}
+
+/* 모달팝업 */
+.modal_bg{position: fixed; width: 100%; height: 100%;left:0;top:0; background: rgba(0,0,0,.7); z-index: 110; display: none;}
+.modal_area{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 95%; background: #fff;
+    border-radius: 30px; box-shadow: var(--box-shadow3); z-index: 120; overflow: hidden; overflow-y: auto; max-height: 90vh; display: none;}
+.modal_area .modal_close{position: absolute; top: 16px; right: 20px;}    
+.modal_area .modal_close span{color: var(--color-white); font-size: var(--font-35-size);}
+.modal_area .product_img img{width: 100%;}
+.product_detail{width: 100%;}
+.product_detail .product_warp{padding: 20px 20px;}
+.product_detail .product_warp h4{font-size: var(--font-20-size); font-weight: 700; color: var(--color-font1); margin-bottom: 10px;}
+.product_detail .product_warp p{font-size: var(--font-14-size); color: var(--color-font2); margin-bottom: 14px;}
+.product_detail .product_warp .product_info{padding: 0 20px; background: var(--color-background); border-radius: 15px; margin-bottom: 20px;}
+.product_detail .product_warp .product_info div{display: flex; align-items: center; border-bottom: 1px solid var(--color-stroke2);}
+.product_detail .product_warp .product_info div:last-child{border-bottom: none;}
+.product_detail .product_warp .product_info div dt{width: 40%; padding: 18px 0; font-size: var(--font-14-size); color: var(--color-font1); font-weight: 700;}
+.product_detail .product_warp a{width: 100%; background: var(--color-point1); border-radius: 30px; padding: 14px 0; display: flex; position: relative;}
+.product_detail .product_warp a .btn_txt{display: block; text-align: center; margin: 0 auto; font-size: var(--font-16-size); font-weight: 600; color: var(--color-white);}
+.product_detail .product_warp a .material-symbols-outlined{position: absolute; right: 6px; top: 6px; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; padding: 10px; background: rgba(255, 255, 255, .2); color: var(--color-white); border-radius: 50%;}
